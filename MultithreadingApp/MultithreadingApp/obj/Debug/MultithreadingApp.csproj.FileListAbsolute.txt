@@ -1,0 +1,7 @@
+C:\Users\Julierme Heinstein\source\repos\MultithreadingApp\MultithreadingApp\bin\Debug\MultithreadingApp.exe.config
+C:\Users\Julierme Heinstein\source\repos\MultithreadingApp\MultithreadingApp\bin\Debug\MultithreadingApp.exe
+C:\Users\Julierme Heinstein\source\repos\MultithreadingApp\MultithreadingApp\bin\Debug\MultithreadingApp.pdb
+C:\Users\Julierme Heinstein\source\repos\MultithreadingApp\MultithreadingApp\obj\Debug\MultithreadingApp.csprojResolveAssemblyReference.cache
+C:\Users\Julierme Heinstein\source\repos\MultithreadingApp\MultithreadingApp\obj\Debug\MultithreadingApp.csproj.CoreCompileInputs.cache
+C:\Users\Julierme Heinstein\source\repos\MultithreadingApp\MultithreadingApp\obj\Debug\MultithreadingApp.exe
+C:\Users\Julierme Heinstein\source\repos\MultithreadingApp\MultithreadingApp\obj\Debug\MultithreadingApp.pdb

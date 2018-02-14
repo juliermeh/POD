@@ -1,0 +1,10 @@
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp2.0\SynchronousSocketClient.deps.json
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp2.0\SynchronousSocketClient.runtimeconfig.json
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp2.0\SynchronousSocketClient.runtimeconfig.dev.json
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp2.0\SynchronousSocketClient.dll
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp2.0\SynchronousSocketClient.pdb
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp2.0\SynchronousSocketClient.csproj.CoreCompileInputs.cache
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp2.0\SynchronousSocketClient.AssemblyInfoInputs.cache
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp2.0\SynchronousSocketClient.AssemblyInfo.cs
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp2.0\SynchronousSocketClient.dll
+C:\Users\Julierme Heinstein\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp2.0\SynchronousSocketClient.pdb

@@ -7,7 +7,8 @@ public class SynchronousSocketListener
 {
 
     // dados a serem recebidos do cliente  
-    public static string data = null;
+    public static string data, datx, daty = null;
+    public static int x, y;
 
     public static void StartListening()
     {
@@ -31,16 +32,22 @@ public class SynchronousSocketListener
             // Esperando conexões
             while (true)
             {
-                Console.WriteLine("Waiting for a connection...");
+                Console.WriteLine("Aguardando conexão...");
                 Socket handler = listener.Accept();
-                data = null;
+                string data, datx, daty = null;
 
                 // Processando conexão com o cliente e extraindo a mensagem
                 while (true)
                 {
                     bytes = new byte[1024];
+                   /* bytx = new byte[1024];
+                    byty = new byte[1024];
                     int bytesRec = handler.Receive(bytes);
+                    int bytesRecx = handler.Receive(bytx);
+                    int bytesRecy = handler.Receive(byty);
                     data += Encoding.ASCII.GetString(bytes, 0, bytesRec);
+                    datx += Encoding.ASCII.GetString(bytes, 0, bytesRec);
+                    daty += Encoding.ASCII.GetString(bytes, 0, bytesRec); */
                     if (data.IndexOf("<EOF>") > -1)
                     {
                         break;
@@ -48,7 +55,7 @@ public class SynchronousSocketListener
                 }
 
                 // Enviando resposta para o cliente
-                Console.WriteLine("Text received : {0}", data);
+                Console.WriteLine("Texto recebido: {0}", data);
                 byte[] msg = Encoding.ASCII.GetBytes(data);
 
                 handler.Send(msg);
@@ -62,7 +69,7 @@ public class SynchronousSocketListener
             Console.WriteLine(e.ToString());
         }
 
-        Console.WriteLine("\nPress ENTER to continue...");
+        Console.WriteLine("\nPressione ENTER para continuar...");
         Console.Read();
 
     }
@@ -70,7 +77,7 @@ public class SynchronousSocketListener
     // Iniciando servidor
     public static int Main(String[] args)
     {
-	Console.WriteLine("Start server...");
+	Console.WriteLine("Iniciando servidor...");
         StartListening();
         return 0;
     }

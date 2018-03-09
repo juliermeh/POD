@@ -10,9 +10,9 @@ namespace MultithreadingApplication
             try
             {
 		// Recebe o nome do usuário
-                Console.Write("Enter your name: ");
+                Console.Write("Digite seu nome: ");
                 String name = Console.ReadLine();
-                Console.WriteLine("Child thread starts");
+                Console.WriteLine("Iniciando thread");
 
                 // são criadas 10 threads cada uma com um nome
                 for (int counter = 1; counter <= 10; counter++)
@@ -21,7 +21,10 @@ namespace MultithreadingApplication
                     Console.WriteLine(name + " " + counter);
                 }
 
-                Console.WriteLine("Child Thread Completed");
+                Console.WriteLine("Método completado");
+            } catch(Exception e)
+            {
+                Console.WriteLine(e);
             }
 
         }
@@ -30,7 +33,7 @@ namespace MultithreadingApplication
         static void Main(string[] args)
         {
             ThreadStart childref = new ThreadStart(CallToChildThread);
-            Console.WriteLine("In Main: Creating the Child thread");
+            Console.WriteLine("Criando Thread");
 
             Thread childThread = new Thread(childref);
             childThread.Start();

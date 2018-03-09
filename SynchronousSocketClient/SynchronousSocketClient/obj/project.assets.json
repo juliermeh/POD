@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Julierme Heinstein\\source\\repos\\SynchronousSocketClient\\SynchronousSocketClient\\SynchronousSocketClient.csproj",
+      "projectUniqueName": "C:\\Users\\Julierme Heinstein\\Documents\\GitHub\\POD\\SynchronousSocketClient\\SynchronousSocketClient\\SynchronousSocketClient.csproj",
       "projectName": "SynchronousSocketClient",
-      "projectPath": "C:\\Users\\Julierme Heinstein\\source\\repos\\SynchronousSocketClient\\SynchronousSocketClient\\SynchronousSocketClient.csproj",
+      "projectPath": "C:\\Users\\Julierme Heinstein\\Documents\\GitHub\\POD\\SynchronousSocketClient\\SynchronousSocketClient\\SynchronousSocketClient.csproj",
       "packagesPath": "C:\\Users\\Julierme Heinstein\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Julierme Heinstein\\source\\repos\\SynchronousSocketClient\\SynchronousSocketClient\\obj\\",
+      "outputPath": "C:\\Users\\Julierme Heinstein\\Documents\\GitHub\\POD\\SynchronousSocketClient\\SynchronousSocketClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
